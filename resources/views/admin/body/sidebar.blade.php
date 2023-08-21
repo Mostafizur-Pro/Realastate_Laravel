@@ -13,7 +13,7 @@
         <ul class="nav">
           <li class="nav-item nav-category">Main</li>
           <li class="nav-item">
-            <a href="dashboard.html" class="nav-link">
+            <a href="{{route('admin.dashboard')}}" class="nav-link">
               <i class="link-icon" data-feather="box"></i>
               <span class="link-title">Dashboard</span>
             </a>
@@ -207,7 +207,7 @@
               </ul>
             </div>
           </li>
-          <li class="nav-item">
+         <!--  <li class="nav-item">
             <a class="nav-link" data-bs-toggle="collapse" href="#tables" role="button" aria-expanded="false" aria-controls="tables">
               <i class="link-icon" data-feather="layout"></i>
               <span class="link-title">Table</span>
@@ -223,8 +223,8 @@
                 </li>
               </ul>
             </div>
-          </li>
-          <li class="nav-item">
+          </li> -->
+         <!--  <li class="nav-item">
             <a class="nav-link" data-bs-toggle="collapse" href="#icons" role="button" aria-expanded="false" aria-controls="icons">
               <i class="link-icon" data-feather="smile"></i>
               <span class="link-title">Icons</span>
@@ -243,8 +243,8 @@
                 </li>
               </ul>
             </div>
-          </li>
-          <li class="nav-item nav-category">Pages</li>
+          </li> -->
+        <!--   <li class="nav-item nav-category">Pages</li>
           <li class="nav-item">
             <a class="nav-link" data-bs-toggle="collapse" href="#general-pages" role="button" aria-expanded="false" aria-controls="general-pages">
               <i class="link-icon" data-feather="book"></i>
@@ -307,7 +307,7 @@
                 </li>
               </ul>
             </div>
-          </li>
+          </li> -->
           <li class="nav-item nav-category">Docs</li>
           <li class="nav-item">
             <a href="https://www.nobleui.com/html/documentation/docs.html" target="_blank" class="nav-link">

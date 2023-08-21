@@ -52,4 +52,4 @@ Route::get('/user/dashboard', [UserController::class, 'UserDashboard'])->name('u
 
 
 
-
+Route::get('/admin/login', [AdminController::class, 'AdminLogin'])->name('admin.login');

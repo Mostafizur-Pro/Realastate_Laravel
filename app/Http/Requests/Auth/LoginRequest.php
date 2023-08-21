@@ -44,8 +44,8 @@ class LoginRequest extends FormRequest
         $this->ensureIsNotRateLimited();
 
         $user = User::where('email', $this->login)
-                ->orWhare('name',$this->login)
-                ->orWhare('phone',$this->login)
+                ->orWhere('name',$this->login)
+                ->orWhere('phone',$this->login)
                 ->first();
 
         // if (! Auth::attempt($this->only('email', 'password'), $this->boolean('remember'))) {
